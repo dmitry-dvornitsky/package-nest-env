@@ -8,9 +8,6 @@ import { AppService } from './app.service'
 	imports: [
 		EnvModule.forRoot({
 			env: EnvironmentVariables,
-			settings: {
-				isGlobal: true,
-			},
 		}),
 	],
 	controllers: [AppController],
