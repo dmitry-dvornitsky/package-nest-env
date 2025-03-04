@@ -1,6 +1,6 @@
 {
 	"name": "@forge.dev/package-nest-env",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"description": "",
 	"author": "",
 	"private": false,
@@ -24,6 +24,7 @@
 		"prepare": "husky"
 	},
 	"dependencies": {
+		"@forge.dev/package-nest-config": "^0.1.2",
 		"@nestjs/common": "^11.0.1",
 		"@nestjs/config": "^4.0.0",
 		"@nestjs/core": "^11.0.1",
@@ -31,8 +32,7 @@
 		"class-transformer": "^0.5.1",
 		"class-validator": "^0.14.1",
 		"reflect-metadata": "^0.2.2",
-		"rxjs": "^7.8.1",
-		"@forge.dev/package-nest-config": "^0.1.2"
+		"rxjs": "^7.8.1"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.7.1",
